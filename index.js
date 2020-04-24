@@ -18,37 +18,37 @@ function askQuestions() {
     },
     {
       type: "input",
-      name: "hobby",
+      name: "url",
       message: "What is the url to your project?",
     },
     {
       type: "input",
-      name: "food",
+      name: "name",
       message: "What is your project's name?",
     },
     {
       type: "input",
-      name: "github",
+      name: "description",
       message: "Please write a short description of your project",
     },
     {
       type: "input",
-      name: "linkedin",
+      name: "license",
       message: "What kind of license should your project have?",
     },
     {
       type: "input",
-      name: "hobby",
+      name: "dependencies",
       message: "What command should be run to install dependencies?",
     },
     {
       type: "input",
-      name: "food",
+      name: "tests",
       message: "What command should be run to run tests?",
     },
     {
       type: "input",
-      name: "github",
+      name: "repo",
       message: "What does the user need to know about using the repo?",
     },
     {
