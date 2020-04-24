@@ -90,11 +90,11 @@ async function init() {
   try {
     const answers = await askQuestions();
 
-    const html = generateReadme(answers);
+    const readme = generateReadme(answers);
 
-    await writeFileAsync("index.html", html);
+    await writeFileAsync("README2.md", readme);
 
-    console.log("Successfully wrote to index.html");
+    console.log("Successfully wrote to README2.md");
   } catch (err) {
     console.log(err);
   }
