@@ -61,32 +61,42 @@ function askQuestions() {
 }
 
 function generateReadme(answers) {
-  return `# ${answers.title}
-  ## Project description
-  ${answers.description}
-  ## Table of contents
-  ### Use
-  ${answers.use}
-  ### Technologies used
-  ${answers.technologies}
-  ### Installation
-  ${answers.commandInstall}
-  ### Contributing
-  ${answers.contribute}
-  ### License
-  ${answers.license}
-### Dependencies
+  return `
+# ${answers.title}
+
+Link: https://github.com/${answers.username}/${answers.title}
+
+## Project description
+
+${answers.description}
+
+## Table of contents
+
+### Installation
+
+To install necessary dependencies run the following command:
+
 ${answers.dependencies}
-### Tests
-${answers.tests}
+
 ### How to Use Repo
+
 ${answers.repo}
-### How to Contribute
+
+### License
+
+This project is licensed under the ${answers.license} license
+
+### Contributing
+
 ${answers.contribute}
-  ### Creator information
-  GitHub username: ${answers.username}\n
-  Email: ${answers.email}\n
-  Github repository: ${answers.urlAddress}
+
+### Tests
+
+To run tests, run the following command: ${answers.tests}
+
+### Questions
+
+If you have an questions about the repo, open an issue or contact ${answers.username} directly at ${answers.email}
   `;
 }
 
