@@ -2,6 +2,13 @@
 
 ## Table of Contents
 
+1. [Description](#description)
+2. [Start](#whereIstarted)
+3. [Use](#use)
+4. [Installation](#installation)
+5. [Contributing](#contributing)
+6. [Questions](#questions)
+
 ### Description
 
 Create a command-line application that dynamically generates a README.md from a user's input. The application will be invoked with the following command:
